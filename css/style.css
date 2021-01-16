@@ -1,5 +1,7 @@
 body {
   background-color: RGB(236, 236, 234);
+  background-image: url("bg.jpg");
+  background-size: cover;
   font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -44,14 +46,17 @@ body {
   text-align: center;
 }
 h2 {
-  font-size: 30px;
+  font-size: 50px;
   color: #fd637d;
 }
 .timer {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 1.5;
   margin: 1em 0;
 }
 .timer b {
+  color: #fd637d;
+}
+h4 {
   color: #fd637d;
 }
